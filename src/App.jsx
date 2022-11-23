@@ -1,11 +1,9 @@
 import './App.css';
 
-export const App = () => {
+export function App() {
   return (
     <div className="App">
       <h1>Users list</h1>
     </div>
   );
 }
-
-
