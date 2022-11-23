@@ -103,6 +103,7 @@ module.exports = {
     "semi": ["error", "always"],
     "no-unreachable": "error",
     "react-hooks/rules-of-hooks": "error",
-    "testing-library/prefer-screen-queries": "off"
+    "testing-library/prefer-screen-queries": "off",
+    "react/function-component-definition": "off"
   }
 };

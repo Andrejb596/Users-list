@@ -3,7 +3,7 @@
 ## App plan and progress:
 
 - [x] Create project
-- [ ] Setup dependencies
+- [-] Setup dependencies
   - [x] Eslint
   - [x] Husky
   - [ ] Css (css-modules, global styles)
