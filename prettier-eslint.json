@@ -1,0 +1,8 @@
+{
+  "rules": {
+    "prettier/prettier": "error",
+    "newline-before-return": "error",
+    "space-infix-ops": "error",
+    "eol-last": "error"
+  }
+}
