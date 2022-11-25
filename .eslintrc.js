@@ -76,6 +76,7 @@ module.exports = {
     "no-trailing-spaces": "error",
     "no-underscore-dangle": "error",
     "no-unused-expressions": ["error", { "allowShortCircuit": true }],
+    "no-unused-vars": "warn",
     "prefer-arrow-callback": "off",
     "prefer-destructuring": "off",
     "prefer-promise-reject-errors": "warn",

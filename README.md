@@ -8,8 +8,8 @@
   - [x] Husky
   - [ ] Css (css-modules, global styles)
 - [ ] Implement basic navigation
-- [ ] `/users` - User page
-- [ ] Not found page
+  - [ ] `/users` - User page
+  - [ ] Not found page
 - [ ] Header with a menu (link to pages)
 - [ ] Setup api services (axios)
 - [ ] Setup store (@redux/toolkit)
