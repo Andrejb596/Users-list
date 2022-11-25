@@ -6,11 +6,11 @@
 - [-] Setup dependencies
   - [x] Eslint
   - [x] Husky
-  - [ ] Css (css-modules, global styles)
-- [ ] Implement basic navigation
-- [ ] `/users` - User page
-- [ ] Not found page
-- [ ] Header with a menu (link to pages)
+  - [x] Css (css-modules, global styles)
+- [x] Implement basic navigation
+  - [x] `/users` - User page
+  - [x] Not found page
+- [x] Header with a menu (link to pages)
 - [ ] Setup api services (axios)
 - [ ] Setup store (@redux/toolkit)
 - [ ] Users page (react-table/mui-table)

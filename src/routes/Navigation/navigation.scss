@@ -11,7 +11,7 @@
     li {
       a {
         font-size: 16px;
-        
+
         &:hover {
           color: var(--accentColor);
         }
@@ -22,9 +22,5 @@
       margin-right: 42px;
     }
 
-  }
-
-  .menu li a.active {
-    color: var(--accentColor);
   }
 }
