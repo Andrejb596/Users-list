@@ -1,40 +1,40 @@
 module.exports = {
   env: {
     "browser": true,
-    "jest": true
+    "jest": true,
   },
   parserOptions: {
     parser: '@babel/eslint-parser',
     requireConfigFile: false, // <== ADD THIS
     ecmaVersion: 2018, // Allows for the parsing of modern ECMAScript features
-    sourceType: 'module' // Allows for the use of imports
+    sourceType: 'module', // Allows for the use of imports
   },
   extends: ["airbnb", "prettier", "plugin:testing-library/react"],
   globals: {
     "hopscotch": true,
     "Box": true,
-    "__ENV_CONFIG__": true
+    "__ENV_CONFIG__": true,
   },
   "plugins": ["react-hooks", "prettier"],
   "overrides": [
     {
       "files": [
-        "src/**/*.{js,jsx}"
+        "src/**/*.{js,jsx}",
       ],
       "rules": {
-        "indent": "off"
-      }
+        "indent": "off",
+      },
     },
     {
-      "files": ["**/__tests__/*.[jt]s?(x)"]
-    }
+      "files": ["**/__tests__/*.[jt]s?(x)"],
+    },
   ],
   "rules": {
     "no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 0 }],
     "arrow-parens": ["error", "as-needed"],
     "class-methods-use-this": "off",
     "eol-last": ["error", "always"],
-    "comma-dangle": ["error", "never"],
+    "comma-dangle": ["error", "always-multiline"],
     "func-names": "off",
     "import/extensions": "off",
     "import/no-extraneous-dependencies": "off",
@@ -59,8 +59,8 @@ module.exports = {
         "ignoreComments": true,
         "ignoreTrailingComments": true,
         "ignoreUrls": true,
-        "ignoreTemplateLiterals": true
-      }
+        "ignoreTemplateLiterals": true,
+      },
     ],
     "no-alert": "error",
     "no-console": ["warn", { "allow": ["warn", "error"] }],
@@ -105,6 +105,6 @@ module.exports = {
     "no-unreachable": "error",
     "react-hooks/rules-of-hooks": "error",
     "testing-library/prefer-screen-queries": "off",
-    "react/function-component-definition": "off"
-  }
+    "react/function-component-definition": "off",
+  },
 };

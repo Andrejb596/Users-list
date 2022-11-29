@@ -11,7 +11,7 @@
   - [x] `/users` - User page
   - [x] Not found page
 - [x] Header with a menu (link to pages)
-- [ ] Setup api services (axios)
+- [x] Setup api services (axios)
 - [ ] Setup store (@redux/toolkit)
 - [ ] Users page (react-table/mui-table)
 - [ ] User page (Info about user)
