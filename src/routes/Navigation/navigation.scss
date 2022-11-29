@@ -1,0 +1,26 @@
+.row {
+  height: 112px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .menu {
+    display: flex;
+    line-height: 24px;
+
+    li {
+      a {
+        font-size: 16px;
+
+        &:hover {
+          color: var(--accentColor);
+        }
+      }
+    }
+
+    li:not(:last-child) {
+      margin-right: 42px;
+    }
+
+  }
+}

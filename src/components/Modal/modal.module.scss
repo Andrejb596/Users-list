@@ -1,0 +1,59 @@
+.modal {
+	height: 100vh;
+	width: 100vw;
+	background-color: rgba(0, 0, 0, 0.4);
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	pointer-events: none;
+	transition: opacity .1s ease-in;
+
+	&.active {
+		opacity: 1;
+		pointer-events: initial;
+	}
+
+	.content {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 20px;
+		border-radius: 12px;
+		background-color: rgb(245, 245, 245);
+		width: 750px;
+		transform: scale(.5);
+		transition: .4s all;
+
+		&.active {
+			transform: scale(1);
+		}
+
+
+		.buttonContainer {
+			button {
+				border: 1px solid #4F4F4F;
+				border-radius: 8px;
+				width: 180px;
+				padding: 10px 0;
+			}
+
+			button+button {
+				margin-left: 10px;
+			}
+
+			.buttonCancel {
+				background: #FFFFFF;
+			}
+
+			.buttonConfirm {
+				color: white;
+				background-color: #4F4F4F;
+			}
+
+		}
+	}
+}
