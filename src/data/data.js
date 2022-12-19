@@ -1,3 +1,3 @@
 export const links = {
-    firstLink: '#/Users'
+  firstLink: '#/users',
 };
