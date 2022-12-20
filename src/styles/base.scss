@@ -1,25 +1,30 @@
 body {
-    font-family: 'Poppins', sans-serif;
-    color: #323232;
-    font-size: 16px;
-    line-height: 27px;
-    letter-spacing: 1.15px;
+  font-family: 'Poppins', sans-serif;
+  color: #323232;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 1.15px;
 }
 
 .container {
-    max-width: 1140px;
-    padding: 0 15px;
-    margin: 0 auto;
+  max-width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 .title {
-    font-weight: 700;
-    font-size: 42px;
-    line-height: 62px;
-    letter-spacing: 0.8px;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 62px;
+  letter-spacing: 0.8px;
 }
 
-.page{
-    min-height: 70vh;
+.page {
+  min-height: 70vh;
 }
 
+.error {
+  border: 1px solid darkred;
+  display: inline-block;
+  color: darkred;
+}

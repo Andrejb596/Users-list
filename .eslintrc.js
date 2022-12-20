@@ -106,5 +106,6 @@ module.exports = {
     "react-hooks/rules-of-hooks": "error",
     "testing-library/prefer-screen-queries": "off",
     "react/function-component-definition": "off",
+    "default-param-last": "off"
   },
 };
