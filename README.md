@@ -12,7 +12,7 @@
   - [x] Not found page
 - [x] Header with a menu (link to pages)
 - [x] Setup api services (axios)
-- [ ] Setup store (@redux/toolkit)
+- [ ] Setup store (@redux/toolkit) 
 - [ ] Users page (react-table/mui-table)
 - [ ] User page (Info about user)
   - Navigation `/user/{id}`
